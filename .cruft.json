@@ -1,0 +1,36 @@
+{
+  "template": "https://github.com/vanolucas/cookiecutter-poetry",
+  "commit": "8868c72ebfc994a286f75540d0db8a18a13775fe",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_type": "app",
+      "project_name": "Multi GPX Map",
+      "project_description": "Display multiple Strava activities or GPX routes on a map.",
+      "project_url": "https://github.com/vanolucas/multi-gpx-map",
+      "author_name": "Lucas Vanoverberghe",
+      "author_email": "10572472+vanolucas@users.noreply.github.com",
+      "python_version": "3.12",
+      "development_environment": "strict",
+      "with_conventional_commits": "1",
+      "with_fastapi_api": "0",
+      "with_typer_cli": "0",
+      "private_package_repository_name": "",
+      "private_package_repository_url": "",
+      "with_postgresql": false,
+      "postgresql_server": "db",
+      "postgresql_user": "db",
+      "postgresql_password": "db",
+      "postgresql_db_name": "db",
+      "postgresql_forward_port": "5432",
+      "with_adminer": false,
+      "adminer_forward_port": "51003",
+      "__docker_image": "python:$PYTHON_VERSION-slim",
+      "__docstring_style": "NumPy",
+      "__project_name_kebab_case": "multi-gpx-map",
+      "__project_name_snake_case": "multi_gpx_map",
+      "_template": "/workspaces/cookiecutter-poetry"
+    }
+  },
+  "directory": null
+}
