@@ -180,7 +180,7 @@ if __name__ == "__main__":
 
     # Process all activity files.
     file_formats = ["gpx", "fit", "tcx"]
-    color = {"gpx": "blue", "fit": "red", "tcx": "green"}
+    color = {"gpx": "red", "fit": "red", "tcx": "red"}
     for file_format in file_formats:
         add_track_files_to_map(
             DIR_PATH,
